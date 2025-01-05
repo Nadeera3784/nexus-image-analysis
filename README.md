@@ -2,7 +2,7 @@
 
 A sci-fi themed desktop application for image matching and analysis using SIFT algorithm. This application helps you find similar images in a directory by comparing their visual features.
 
-![App Screenshot](path_to_your_screenshot.png)
+![App Screenshot](https://raw.githubusercontent.com/Nadeera3784/nexus-image-analysis/master/screenshot.png)
 
 ## Features
 
@@ -137,5 +137,5 @@ The application uses OpenCV's SIFT (Scale-Invariant Feature Transform) algorithm
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License
 
