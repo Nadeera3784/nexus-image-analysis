@@ -61,7 +61,7 @@ class ScanningOverlay(QWidget):
             painter.fillRect(0, line_y - i, self.width(), 1, gradient_color)
             painter.fillRect(0, line_y + line_height + i, self.width(), 1, gradient_color)
 
-class ImageMatcherApp(QMainWindow):
+class NexusImageAnalysis(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("NEXUS Image Analysis System")
@@ -445,9 +445,9 @@ class ImageMatcherApp(QMainWindow):
         
         self.results_layout.addWidget(result_widget)
 
-        
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    window = ImageMatcherApp()
+    window = NexusImageAnalysis()
     window.show()
     sys.exit(app.exec_())
